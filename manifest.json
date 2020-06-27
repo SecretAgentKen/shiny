@@ -1,0 +1,12 @@
+{
+  "name" : "Shiny!",
+  "version" : "1.0",
+  "description" : "Clears everything but cookies and history on startup",
+  "permissions": [
+    "browsingData"
+  ],
+  "background": {
+    "scripts": ["clean.js"]
+  },
+  "manifest_version": 2
+}
