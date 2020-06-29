@@ -1,10 +1,13 @@
 {
   "name" : "Shiny!",
   "version" : "1.0",
-  "description" : "Clears everything but cookies and history on startup",
+  "description" : "Clears everything but history on startup for everything not protected",
   "permissions": [
-    "browsingData"
+    "browsingData",
+    "tabs"
   ],
+  "page_action": {},
+  "options_page": "options.html",
   "background": {
     "scripts": ["clean.js"]
   },

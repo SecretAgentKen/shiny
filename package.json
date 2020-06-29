@@ -1,0 +1,35 @@
+{
+  "name": "shiny",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "npx eslint . --fix",
+    "build": "npx webpack --mode production",
+    "dev": "npx webpack --mode development"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.12.0",
+    "bulma": "^0.9.0",
+    "copy-webpack-plugin": "^6.0.2",
+    "css-loader": "^3.4.2",
+    "eslint": "^6.8.0",
+    "file-loader": "^4.3.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^7.3.1",
+    "style-loader": "^0.23.1",
+    "vue": "^2.6.11",
+    "vue-loader": "^15.8.3",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-node-externals": "^1.7.2"
+  }
+}
